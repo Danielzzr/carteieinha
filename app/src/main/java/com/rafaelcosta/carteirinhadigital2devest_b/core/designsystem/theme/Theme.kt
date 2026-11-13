@@ -257,8 +257,8 @@ val unspecified_scheme = ColorFamily(
 @Composable
 fun CarteirinhaDigital2DEVEST_BTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    // Dynamic color is set to false by default to retain red tech branding
+    dynamicColor: Boolean = false,
     content: @Composable() () -> Unit
 ) {
   val colorScheme = when {

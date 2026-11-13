@@ -1,4 +1,4 @@
-package com.rafaelcosta.carteirinhadigital2devest_b.app
+    package com.rafaelcosta.carteirinhadigital2devest_b.app
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
